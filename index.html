@@ -1,11 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <title>Portfolio - M Carmen RH</title>
 </head>
+
 <body>
-    
+    <!---Layout pagina inicio-->
+    <div class="layout">
+        <!--Barra lateral-->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+
+                <div class="user-info__general">
+
+                    <div class="user-info__container-image">
+                        <img src="assets/img/fotoMC.jpg" class="user-info__image" alt="Foto de perfil" />
+                    </div>
+                    <h2 class="user-info__name">María Carmen Reina</h2>
+                    <h4 class="user-info__job">FrontEnd Developer</h4>
+
+                </div>
+
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu_link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu_link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu_link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Estudios</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="proyectos.html" class="menu_link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Proyectos</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu_link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <div class="user-info__links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <footer class="user-info__footer">&copy; 2024 Mª Carmen Reina</footer>
+
+            </section>
+
+        </aside>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page">
+                <h1 class="page__name">María Carmen Reina</h1>
+                <h2 class="page__job">FrontEnd Developer</h2>
+                <p class="page__description">Tal y como sucede en la película "Figuras Ocultas",
+                     es crucial adaptarse a las nuevas tecnologías o correr el riesgo de
+                     volverse prescindible en el mercado laboral.</p>
+            </section>
+
+        </main>
+
+
+    </div>
+
 </body>
+
 </html>
